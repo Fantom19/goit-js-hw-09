@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.body__fon {
+  background-image: url(https://1.bp.blogspot.com/-TDlxyhiJu9c/X-1LpOwT8wI/AAAAAAAAlMM/JJ6Dg9nSxJ08Isren0ScOpeLiwx-uMJRgCLcBGAsYHQ/w1200-h630-p-k-no-nu/free%2BHTML%2BCSS%2Band%2BJavaScript%2Bcourse%2BUdemy.webp);
+  background-repeat: no-repeat;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20%;
+}
+
+.buttons > button {
+  padding: 50px 50px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.buttons > button:hover {
+  background-color: darkgray;
+} 
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+.value {
+  color: blue;
+}
